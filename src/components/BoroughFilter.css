@@ -1,0 +1,22 @@
+.borough-filter {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.borough-select {
+  padding: 0.45rem 0.7rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  background: #fff;
+  color: #333;
+  cursor: pointer;
+  min-width: 180px;
+}
+
+.borough-select:focus {
+  outline: none;
+  border-color: #6366f1;
+  box-shadow: 0 0 0 2px rgba(99, 102, 241, 0.2);
+}
